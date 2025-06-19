@@ -20,7 +20,7 @@ export function calcLabelVisibility({
     if (
       camera &&
       nodePosition &&
-      camera?.position?.z / camera?.zoom - nodePosition?.z > 6000
+      camera?.position?.z / camera?.zoom - nodePosition?.z > 100000
     ) {
       return false;
     }
